@@ -1,5 +1,7 @@
 ﻿# Unified Resolution Model (URM)
 
+⚠️ DISCLAIMER: This work is currently under active development. It is shared for academic and collaborative purposes only and may evolve significantly. Use at your own discretion.
+
 The Unified Resolution Model (URM) is a theoretical framework proposing that leading approaches to quantum gravity — such as Loop Quantum Gravity (LQG) and M-theory — represent different observational resolutions of a single, underlying multidimensional reality.
 
 This repository contains the conceptual foundation, mathematical formulation, and simulation code that together form a scalable, testable model for understanding dimensional emergence.
@@ -17,7 +19,7 @@ This repository contains the conceptual foundation, mathematical formulation, an
 
 ## 📄 Publications
 
-- **Main Paper:** [Unified Resolution Model (PDF)](./Unified_Resolution_Model_Combined.pdf)  
+- **Main Paper:** Link will be provided soon
   This comprehensive document combines the conceptual and mathematical framework into a cohesive theory.
 
 ---
