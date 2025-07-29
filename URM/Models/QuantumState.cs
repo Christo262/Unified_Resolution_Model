@@ -2,6 +2,9 @@
 
 namespace URM.Models
 {
+    /// <summary>
+    /// Represents a simplified coarse-grainable quantum state with amplitudes and spin network edges.
+    /// </summary>
     public class QuantumState
     {
         public Complex[] Amplitudes { get; set; }

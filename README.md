@@ -1,55 +1,53 @@
 ﻿# Unified Resolution Model (URM)
 
-⚠️ DISCLAIMER: This work is currently under active development. It is shared for academic and collaborative purposes only and may evolve significantly. Use at your own discretion.
+⚠️ **DISCLAIMER:**  
+This work is under active development. It is shared for academic and collaborative purposes only and may evolve significantly. Use at your own discretion.
 
-The Unified Resolution Model (URM) is a theoretical framework proposing that leading approaches to quantum gravity — such as Loop Quantum Gravity (LQG) and M-theory — represent different observational resolutions of a single, underlying multidimensional reality.
+The **Unified Resolution Model (URM)** is a theoretical framework proposing that leading approaches to quantum gravity — such as **Loop Quantum Gravity (LQG)** and **M-theory** — represent different observational resolutions of a single, underlying multidimensional reality.
 
-This repository contains the conceptual foundation, mathematical formulation, and simulation code that together form a scalable, testable model for understanding dimensional emergence.
+This repository contains the **conceptual foundation**, **mathematical formulation**, and **simulation code** that together form a scalable, testable model for understanding **dimensional emergence**.
 
 ---
 
 ## 🧠 Core Ideas
 
-- **Resolution Parameter (ρ):** A continuous parameter representing observational fidelity, energy scale, or information density.
-- **Lens Operator (L̂ρ):** A projection function that reveals different physical phenomena depending on resolution.
-- **Dimensional Emergence:** As ρ increases, additional spatial dimensions become observable through smooth transitions (not discrete jumps).
-- **LQG and M-Theory Unified:** Spin networks from LQG may be low-resolution projections of string/brane structures in M-theory.
+- **Resolution Parameter (ρ):** A continuous scalar representing observational fidelity, energy scale, or information density.
+- **Lens Operator (L̂ρ):** A projection operator that filters observable structure depending on resolution.
+- **Dimensional Emergence:** As ρ increases, additional spatial dimensions become observable through continuous transitions.
+- **LQG and M-Theory Unified:** Spin networks in LQG may represent low-resolution projections of high-dimensional brane structures described by M-theory.
 
 ---
 
 ## 📄 Publications
 
-- **Main Paper:** Link will be provided soon
-  This comprehensive document combines the conceptual and mathematical framework into a cohesive theory.
+ - [A Unified Resolution Model: Reconciling Loop Quantum Gravity and M-Theory via Layered Magnification](papers/urm_0.pdf)
 
 ---
 
 ## 🧪 Simulation Code
 
-This repository includes a C# console application that simulates dimensional emergence based on the model’s lens and resolution parameters.
+This repository includes a C# console application that simulates resolution-dependent dimensional emergence:
 
-- **Shows how D(ρ)** smoothly transitions from 4D to 11D using sigmoid functions.
-- **Lens projection** reveals state complexity that increases with resolution.
-- **Modular architecture** with support for future tensor network modeling.
+- 📈 Smooth transitions in **D(ρ)** from 4D to 11D using sigmoid or power-law mappings.
+- 🧩 Lens projections reveal growing state complexity as resolution increases.
+- 🧱 Modular architecture prepared for future extensions (e.g. tensor networks, holographic mappings).
 
 ---
 
 ## 📜 License
 
-This project and all associated materials are licensed under the **MIT License**. See [LICENSE](./LICENSE) for full details.
-
----
-
-## 🤝 Contributions & Contact
-
-This work was developed by **Christo Cilliers**, an independent researcher and software developer from South Africa.
-
-> For inquiries, feedback, or academic interest, contact: `urm.cilliers@gmail.com`
+This work is licensed under the  
+[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 ---
 
 ## 📢 Notes
 
-- Once accepted, a link to the viXra/ai.viXra.org publication will be added here.
-- This repository aims to support and accompany the theoretical work with open simulations.
+- This repository accompanies the URM research effort and is open for simulation support, peer discussion, and collaboration.
+- Future updates may include:  
+  - Interactive web simulations (e.g. with Three.js)  
+  - Experiment protocols (BECs, entanglement scaling)  
+  - Visualizations of the Emergence Zone
+
+---
 
