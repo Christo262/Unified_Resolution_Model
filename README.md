@@ -20,9 +20,9 @@ This repository contains the **conceptual foundation**, **mathematical formulati
 
 ## 📄 Publications
 
- - [A Unified Resolution Model: Reconciling Loop Quantum Gravity and M-Theory via Layered Magnification](papers/urm_0.pdf) - 2025/07/27
- - [Unified Resolution Model I: A Theoretical and Mathematical Framework for Dimensional Emergence](papers/urm_i.pdf) - 2025/07/27
- - [Unified Resolution Model II: Mathematical Structure and Dimensional Transitions](papers/urm_ii.pdf) - 2025/07/28
+ - [A Unified Resolution Model: Reconciling Loop Quantum Gravity and M-Theory via Layered Magnification](docs/papers/urm_0.pdf) - 2025/07/27
+ - [Unified Resolution Model I: A Theoretical and Mathematical Framework for Dimensional Emergence](docs/papers/urm_i.pdf) - 2025/07/27
+ - [Unified Resolution Model II: Mathematical Structure and Dimensional Transitions](docs/papers/urm_ii.pdf) - 2025/07/28
 ---
 
 ## 🧪 Simulation Code
