@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sln", "sln", "{02EA681E-C7D
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4DFBE87-72EB-4515-99A4-67D767D05F44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dim_e", "dim_e", "{2CD0234D-ECE6-44CC-B22C-55358E72BA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urm.DimE", "src\dim_e\Urm.DimE\Urm.DimE.csproj", "{7E361542-CAE1-D54E-6AC3-4ED17FC2B182}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,17 @@ Global
 		{94C5B296-DC74-4A6E-A8C2-7FF097A7D4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94C5B296-DC74-4A6E-A8C2-7FF097A7D4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94C5B296-DC74-4A6E-A8C2-7FF097A7D4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E361542-CAE1-D54E-6AC3-4ED17FC2B182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E361542-CAE1-D54E-6AC3-4ED17FC2B182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E361542-CAE1-D54E-6AC3-4ED17FC2B182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E361542-CAE1-D54E-6AC3-4ED17FC2B182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CD0234D-ECE6-44CC-B22C-55358E72BA60} = {F4DFBE87-72EB-4515-99A4-67D767D05F44}
+		{7E361542-CAE1-D54E-6AC3-4ED17FC2B182} = {2CD0234D-ECE6-44CC-B22C-55358E72BA60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C31F1C3E-9D93-4ECC-978D-8A250AEB7880}
