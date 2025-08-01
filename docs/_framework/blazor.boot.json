@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Urm.DimE",
   "resources": {
-    "hash": "sha256-dJnQRWKXAsHuJXTrffIN/FTy5vDQSS/PbCH5s1LlHb4=",
+    "hash": "sha256-APmkCu5L0cf/qSvlJv9yw6+8KQpp8rQu//Zyqa2gRpc=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-RiGT44TFZmHOY+Oqvb8o8r+BJVWex6+dPxFxrOiWvFY="
     },
@@ -52,7 +52,7 @@
       "System.Text.Json.wasm": "sha256-f/lEPCBiqjp/m/CbYQE4l2ad3JFIlkf+YeAj+IM8Q1g=",
       "System.Text.RegularExpressions.wasm": "sha256-YqYGvcZ/FWFEPV9yY6rVrqa9Q2z73SM9C8x6pB0tprM=",
       "System.Private.CoreLib.wasm": "sha256-8ZDwFb+LW2H2fdDX9yDcAPnlPfM+fWnyOoG41lgPb3M=",
-      "Urm.DimE.wasm": "sha256-rer74In3GpWaJHKwa6ENwahSiQWcWzSi2g96M62dOsU="
+      "Urm.DimE.wasm": "sha256-dJX8fYzFxVar0f14GPVfAz4MIPtRgqcS9MOGyvsSRoA="
     }
   },
   "cacheBootResources": true,
