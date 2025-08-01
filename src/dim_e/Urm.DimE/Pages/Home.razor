@@ -1,0 +1,137 @@
+﻿@page "/"
+
+<PageTitle>Unified Resolution Model</PageTitle>
+
+<div id="top" class="bg-black bg-black-hole vh-50 text-light rounded mt-2">
+    <div class="bg-dark bg-opacity-50 h-100 rounded">
+        <div class="container row m-0 h-100">
+            <div class="col-md-12 m-auto justify-content-center align-self-center">
+                <MudText Typo="Typo.h2">
+                    Unified Resolution Model
+                </MudText>
+                <MudText Typo="Typo.subtitle1">
+                    A resolution-dependent view of a single underlying structure
+                </MudText>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-2">
+    <MudAlert Severity="Severity.Error" Variant="Variant.Filled">
+        <p class="m-0 lead">Call to Physicists</p>
+        <p>
+            This is an independent theoretical framework in development.<br />
+            I'm not a physicist by training — but I believe the model offers testable, unifying structure.<br />
+
+            If you're a physicist or researcher in quantum gravity, your critique and insight is welcome.<br />
+            📧 Contact details are listed in each paper.
+        </p>
+    </MudAlert>
+</div>
+
+<div id="papers" class="container mt-4">
+    <MudPaper Elevation="2">
+        <div class="p-2">
+            <MudText Typo="Typo.h4">
+                Papers
+            </MudText>
+            <hr />
+
+            <MudAlert Severity="Severity.Normal" Variant="Variant.Outlined" Class="mb-2">
+                <p class="m-0">
+                    A Unified Resolution Model: Reconciling Loop Quantum Gravity and M-Theory via Layered Magnification
+                </p>
+                <p class="m-0 small">
+                    Published: 2025/07/27
+                </p>
+                <MudButton Color="Color.Primary" Variant="Variant.Filled" Size="Size.Small" Href="papers/urm_0.pdf">[PDF]View/Download</MudButton>
+            </MudAlert>
+
+            <MudAlert Severity="Severity.Normal" Variant="Variant.Outlined" Class="mb-2">
+                <p class="m-0">
+                    Unified Resolution Model I: A Theoretical and Mathematical Framework for Dimensional Emergence
+                </p>
+                <p class="m-0 small">
+                    Published: 2025/07/27
+                </p>
+                <MudButton Color="Color.Primary" Variant="Variant.Filled" Size="Size.Small" Href="papers/urm_i.pdf">[PDF]View/Download</MudButton>
+            </MudAlert>
+
+            <MudAlert Severity="Severity.Normal" Variant="Variant.Outlined" Class="mb-2">
+                <p class="m-0">
+                    Unified Resolution Model II: Mathematical Structure and Dimensional Transitions
+                </p>
+                <p class="m-0 small">
+                    Published: 2025/07/28
+                </p>
+                <MudButton Color="Color.Primary" Variant="Variant.Filled" Size="Size.Small" Href="papers/urm_ii.pdf">[PDF]View/Download</MudButton>
+            </MudAlert>
+        </div>
+    </MudPaper>
+</div>
+
+
+<div id="experiments" class="container mt-4">
+    <MudPaper Elevation="2">
+        <div class="p-2">
+            <MudText Typo="Typo.h4">
+                Experiments
+            </MudText>
+            <hr />
+            <MudText Typo="Typo.body1">
+                This section will feature proposed experiments aimed at testing predictions of the Unified Resolution Model (URM).
+            </MudText>
+            <MudText Typo="Typo.body1">
+                The goal is to explore whether resolution-dependent physical phenomena can be observed using current or near-future technology.
+            </MudText>
+            <hr />
+            <MudText Typo="Typo.body1">
+                🧠 If you're a physicist or researcher interested in contributing to experimental design or interpretation, I’d greatly value your input. Please feel free to reach out.
+            </MudText>
+        </div>
+    </MudPaper>
+</div>
+
+<div class="container mt-4" id="overview">
+    <MudPaper Elevation="2">
+        <div class="p-2">
+            <MudText Typo="Typo.h4">
+                Overview
+            </MudText>
+            <hr />
+
+            <div class="row m-0">
+                <div class="col-md-4">
+                    <MudAlert Severity="Severity.Error" Variant="Variant.Outlined">
+                        Not scientifically accurate — conceptual illustration only.
+                    </MudAlert>
+
+                    <MudText Typo="Typo.body1">
+                        This interactive visualization represents a conceptual model of the Unified Resolution Model.
+                    </MudText>
+                    <MudText Typo="Typo.body1">
+                        As you increase the resolution parameter ρ, the structure appears to evolve — revealing more structure. This illustrates the core URM idea:
+                    </MudText>
+
+                    <MudText Typo="Typo.body2">
+                        <strong>Physical structure and dimensionality are resolution-dependent.</strong><br />
+                        At low resolution, reality appears coarse and simple (e.g., like spin networks in Loop Quantum Gravity). As resolution increases, finer and higher-dimensional structures emerge — potentially culminating in the detailed frameworks of M-theory.
+                    </MudText>
+
+                    <MudText Typo="Typo.body1">
+                        This visual doesn't simulate physics. It's an analogy for how LQG &amp; M-Theory may be describing the same underlying structure at different observational resolutions — much like zooming into a fractal reveals hidden detail.
+                    </MudText>
+                    <hr />
+
+                    <label>Resolution (ρ): <input type="range" min="0" max="100" value="0" id="resolutionSlider" /></label>
+                </div>
+                <div class="col-md-8">
+                    <div id="urm-visual-container" class="h-100" style="min-height:500px"></div>
+                </div>
+            </div>
+        </div>
+    </MudPaper>
+</div>
+
+<div class="my-5"></div>
