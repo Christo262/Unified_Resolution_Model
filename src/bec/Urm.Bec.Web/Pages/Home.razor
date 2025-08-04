@@ -1,0 +1,62 @@
+﻿@page "/"
+
+<div class="row m-0">
+    <div class="col-md-9">
+        <h2>
+            Bose-Einstein Condensate Simulator
+        </h2>
+    </div>
+    <div class="col-md-2 text-end justify-content-center align-self-center">
+        @if (_module != null)
+        {
+            <Button OnClick="StopAsync" Icon="bi bi-stop-circle" Color="Color.Danger">Stop &amp; Export Data</Button>
+        }
+        else
+        {
+            <Button Color="Color.Success" OnClick="StartAsync" Icon="bi bi-play-circle">Start Simulator</Button>
+        }
+    </div>
+    <div class="col-md-1 text-end justify-content-center align-self-center">
+        <ThemeProvider DarkModeIcon="bi bi-moon" LightModeIcon="bi bi-brightness-high"></ThemeProvider>
+    </div>
+</div>
+
+<hr />
+
+<div class="row m-0">
+    <div class="col-md-6">
+        <div id="bec_sim" class="w-100" style="height:500px">
+
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="mb-3">
+            <label>Target Coherence (@_sim.State.TargetCoherence)</label>
+            <Slider TValue="double" Value="_sim.State.TargetCoherence*100" IsDisabled="_module == null" Min="0" Max="100" OnValueChanged="SetCoherence" />
+        </div>
+        <div class="mb-3">
+            <label>Expansion Mode</label>
+            <Switch ValueChanged="@ToggleExpansionMode" Value="_expansionMode" IsDisabled="_module == null" OnColor="Color.Secondary" OnText="On" OffText="Off"></Switch>
+        </div>
+        <div class="mb-3">
+            <Button OnClick="Reheat" IsDisabled="_module == null" ButtonStyle="ButtonStyle.Round" Color="Color.Danger">Reheat</Button>
+            <Button OnClick="TakeParticleSnapshot" IsDisabled="_module == null" ButtonStyle="ButtonStyle.Round" Color="Color.Primary">Particle Snapshot</Button>
+        </div>
+        <LineChartPlotter ChartTitle="" YAxisTitle="µm" LegendLabel="RMS" DataSelector="x => x.RMS" />
+    </div>
+    <div class="col-md-3">
+        <LineChartPlotter ChartTitle="" YAxisTitle="K" LegendLabel="Temperature" DataSelector="x => x.Temperature" />
+    </div>
+    <div class="col-md-3">
+        <LineChartPlotter ChartTitle="" YAxisTitle="J" LegendLabel="Kinetic Energy" DataSelector="x => x.KineticEnergy" />
+    </div>
+    <div class="col-md-3">
+        <LineChartPlotter ChartTitle="" YAxisTitle="J" LegendLabel="Potential Energy" DataSelector="x => x.KineticEnergy" />
+    </div>
+    <div class="col-md-3">
+        <LineChartPlotter ChartTitle="" YAxisTitle="" LegendLabel="Condensate Fraction" DataSelector="x => x.CondensateFraction" />
+    </div>
+    <div class="col-md-3">
+        <LineChartPlotter ChartTitle="" YAxisTitle="µm/s" LegendLabel="Expansion Rate" DataSelector="x => x.ExpansionRate" />
+    </div>
+</div>

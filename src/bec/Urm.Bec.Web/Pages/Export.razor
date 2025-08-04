@@ -1,0 +1,18 @@
+﻿@page "/export"
+
+<h2>
+    BEC Simulator Export
+</h2>
+<hr />
+
+<p class="lead">
+    <strong>@DateTime.Now</strong> BEC Simulation
+</p>
+<p class="small">
+    @_sim.History.Count Seconds
+</p>
+
+<p>
+    <Button OnClick="Restart" Color="Color.Secondary">Restart</Button>
+    <Button OnClick="DownloadJson" Color="Color.Success">Download JSON</Button>
+</p>

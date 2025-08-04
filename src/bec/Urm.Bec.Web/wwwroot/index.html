@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URM: BEC Lab</title>
+    <base href="/" />
+    <link href="_content/BootstrapBlazor.BootstrapIcon/css/bootstrap.min.css" rel="stylesheet">
+    <link href="_content/BootstrapBlazor/css/bootstrap.blazor.bundle.min.css" rel="stylesheet">
+    <link href="_content/BootstrapBlazor/css/motronic.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="Urm.Bec.Web.styles.css" rel="stylesheet" />
+    <meta name="description" content="Interactive WebAssembly simulator for Bose–Einstein Condensates (BECs) with gas selection, trap configuration, spin visualization, and JSON data export. Ideal for quantum physics researchers and educators.">
+    <meta name="keywords" content="BEC simulator, Bose–Einstein Condensate, WebAssembly physics, quantum simulation, trap geometry, spin texture, Blazor WebAssembly, export JSON, Hopfion simulation, particle physics visualization, quantum coherence, cold atom research">
+
+</head>
+
+<body>
+    <div id="app">
+        <div class="vh-100">
+            <div class="row m-0">
+                <div class="col-md-6 m-auto justify-content-center align-self-center">
+                    <div class="d-flex align-items-center">
+                        <strong role="status">Loading...</strong>
+                        <div class="spinner-border ms-auto" aria-hidden="true"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="_content/BootstrapBlazor/js/bootstrap.blazor.bundle.min.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.178.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.178.0/examples/jsm/"
+          }
+        }
+    </script>
+
+    <script>
+        window.downloadJsonFile = (filename, base64) => {
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = 'data:application/json;base64,' + base64;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        };
+    </script>
+</body>
+
+</html>
